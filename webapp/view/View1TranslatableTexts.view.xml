@@ -1,0 +1,19 @@
+<mvc:View controllerName="NamespaceTranslatableTexts.PnameTranslatableTexts.controller.View1TranslatableTexts"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+<!--	<App id="idAppControl"> -->
+<!--		<pages>
+			<Page title="{i18n>title}">
+				<content></content>
+			</Page>
+		</pages>-->
+   <Button
+      text="{i18n>showHelloButtonText}"
+      press="onShowHello"/>
+   <Input
+      value="{/recipient/name}"
+      description="Hello {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>
+      
+<!--	</App> -->
+</mvc:View>
